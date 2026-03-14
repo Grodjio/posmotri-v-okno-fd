@@ -253,7 +253,7 @@ ol {
 .content__list-container {
   position: relative;
   max-height: 534px;
-  width: 399px;
+  min-width: 399px;
   overflow-y: auto;
   width: 100%;
   padding: 2px;
