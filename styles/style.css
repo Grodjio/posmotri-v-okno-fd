@@ -274,6 +274,13 @@ ol {
   cursor: pointer;
 }
 
+.content__card-link:active {
+  background-color: rgb(84 80 80);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 1px;
+}
+
 .content__card-link:focus-visible {
   outline: 1px solid #fff;
   outline-offset: 1px;
@@ -284,16 +291,6 @@ ol {
   flex-direction: row;
   align-items: start;
 }
-
-/*.content__video-card:active {
-  background-color: rgb(84 80 80);
-}*/
-
-/*.content__video-card:hover {
-  text-decoration: underline;
-  text-decoration-thickness: 1px;
-  text-underline-offset: 1px;
-} */
 
 .content__video-card-description-container {
   display: flex;
@@ -331,7 +328,7 @@ ol {
   object-position: center;
 }
 
-.content__card-link_current:active {
+.content__card-link_current {
   background-color: rgb(84 80 80);
   text-decoration: underline;
   text-decoration-thickness: 1px;
